@@ -70,6 +70,7 @@ header input {
 #contenido {
   display: flex;
   width: calc(100% - 300px);
+  flex-wrap: wrap;
 }
 
 aside {
@@ -112,7 +113,7 @@ section {
   height: 100%;
   overflow: hidden;
   text-align: left;
-  width: 80%;
+  width: 100%;
 }
 
 #slider figure img{
