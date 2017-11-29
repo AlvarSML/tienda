@@ -67,6 +67,11 @@ header input {
   display: flex;
 }
 
+#contenido {
+  display: flex;
+  width: calc(100% - 300px);
+}
+
 aside {
   display:;
   width: 300px;
@@ -77,51 +82,44 @@ aside {
   background-color: white;
   color: #aaffaa;
 }
+
+
+section {
+  width: 100%;
+  background-color: red;
+  padding: 10px;
+  /*flexbox*/
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
 /*///CODIGO DE JAVI////////*/
 
-#principal{
-	
-	text-align: right;
-	position:absolute;
-	top:150px;
-	right:300px;
-	
-}
-
-section{
-	height:80%;
-  width: 60%;
-
-}
 @keyframes slidy {
-0% { left: 0%; }
-30% { left: 0%; }
-35% { left: -100%; }
-60% { left: -100%; }
-65% { left: -200%; }
-95% { left: -200%; }
-100% { left: -300%; }
+  0% { left: 0%; }
+  30% { left: 0%; }
+  35% { left: -100%; }
+  60% { left: -100%; }
+  65% { left: -200%; }
+  95% { left: -200%; }
+  100% { left: -300%; }
 }
 
-
-
-
-#slider { 
-  
-    height: 100%;
-    
-    overflow: hidden;
-    text-align: left;
-    width: 80%;
-   
-  
+#slider {
+  height: 100%;
+  overflow: hidden;
+  text-align: left;
+  width: 80%;
 }
 
-
-
-
-
-#slider figure img{ width: 20%; float: left; height: 100%; }
+#slider figure img{
+  width: 20%;
+  float: left;
+  height: 100%;
+}
 
 #slider figure {
   position: relative;
@@ -135,27 +133,12 @@ section{
 }
 
 #principal{
-  
   display: flex;
   flex-direction:column;
   justify-content:flex-end;
   align-items: flex-end;
-  
-  
-  
 }
 
-section {
-  width: calc(100% - 300px);
-  background-color: red;
-  padding: 10px;
-  /*flexbox*/
-  display: flex;
-  justify-content: space-between;
-  align-content: flex-start;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
 
 /* cajas */
 
