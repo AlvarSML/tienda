@@ -102,6 +102,66 @@ section {
   flex-direction: row;
 }
 
+
+#container {
+    background-color: #d1f6db;
+    width: 100%;
+    height: 700px;
+}
+
+aside {
+    width: 300px;
+    height: 100%;
+    position: relative;
+    padding: 10px;
+    background-color: purple;
+    color: #aaffaa;
+    list-style: none;
+}
+
+#container aside ul { list-style-type: none;
+}
+#container aside ul li.nivel1 {width: 144px;}
+#container aside ul li.primera {border-top: solid 1px #FFF;}
+#container aside ul li a {display: block;
+    text-decoration: none;
+    color: red;
+    background-color: #d1f6db;
+    border: solid 1px #fff;
+    border-top: none;
+    padding: 8px;
+    position: relative;
+}
+#container aside ul li:hover {position: relative;
+    background-color: #d1f6db;
+    color: #000;
+}
+#container aside ul li a:hover, #container aside ul li:hover a.nivel1 {background-color: #d1f6db;
+    color: #000;
+    position: relative;
+}
+#container aside ul li a.nivel1 {display: block!important;display: none;
+    position: relative;
+}
+#container aside ul li ul {display: none;
+}
+#container aside ul li a:hover ul, #container aside ul li:hover ul {display: block;
+    position: absolute;left: 141px;top:-1px!important;top: -31px;
+}
+#container aside ul li ul li a {width: 140px;
+    background-color: #d1f6db;
+    color: #000;
+}
+#container aside ul li ul li a:hover {position: relative;
+    background-color: #d1f6db;
+    color: #FFF;
+}
+table.falsa {border-collapse:collapse;
+    border:0px;
+    float: left;
+    position: relative;
+}
+
 /* Slideshow */
 
 @keyframes slidy {
