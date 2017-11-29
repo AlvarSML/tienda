@@ -62,18 +62,7 @@ header input {
     display: flex;
 }
 
-aside {
-
-  display:;
-  width: 300px;
-  height: 700px;
-  color: #fff;
-  position: relative;
-  padding: 10px;
-  background-color: #000;
-  color: #aaffaa;
-}
-
+/* menu lateral*/
 
 section {
   width: 100%;
@@ -91,13 +80,11 @@ section {
 #container {
     background-color: #d1f6db;
     width: 100%;
-    height: 700px;
 }
 
 aside {
-
     width: 300px;
-    height: 100%;
+    height: 700px;
     position: relative;
     padding: 10px;
     background-color: purple;
@@ -105,11 +92,11 @@ aside {
     list-style: none;
 }
 
-#container aside ul { list-style-type: none;
+aside ul { list-style-type: none;
 }
-#container aside ul li.nivel1 {width: 144px;}
-#container aside ul li.primera {border-top: solid 1px #FFF;}
-#container aside ul li a {display: block;
+aside ul li.nivel1 {width: 144px;}
+aside ul li.primera {border-top: solid 1px #FFF;}
+aside ul li a {display: block;
     text-decoration: none;
     color: red;
     background-color: #d1f6db;
@@ -118,27 +105,27 @@ aside {
     padding: 8px;
     position: relative;
 }
-#container aside ul li:hover {position: relative;
+aside ul li:hover {position: relative;
     background-color: #d1f6db;
     color: #000;
 }
-#container aside ul li a:hover, #container aside ul li:hover a.nivel1 {background-color: #d1f6db;
+aside ul li a:hover, #container aside ul li:hover a.nivel1 {background-color: #d1f6db;
     color: #000;
     position: relative;
 }
-#container aside ul li a.nivel1 {display: block!important;display: none;
+aside ul li a.nivel1 {display: block!important;display: none;
     position: relative;
 }
-#container aside ul li ul {display: none;
+aside ul li ul {display: none;
 }
-#container aside ul li a:hover ul, #container aside ul li:hover ul {display: block;
+aside ul li a:hover ul, #container aside ul li:hover ul {display: block;
     position: absolute;left: 141px;top:-1px!important;top: -31px;
 }
-#container aside ul li ul li a {width: 140px;
+aside ul li ul li a {width: 140px;
     background-color: #d1f6db;
     color: #000;
 }
-#container aside ul li ul li a:hover {position: relative;
+aside ul li ul li a:hover {position: relative;
     background-color: #d1f6db;
     color: #FFF;
 }
