@@ -1,84 +1,69 @@
 * {
-  padding: 0;
-  margin: 0;
-}
-
-hr {
-  width: 80%;
-  margin: 0 auto;
-  color: green;
+    padding: 0;
+    margin: 0;
 }
 
 /* body general */
 
 body {
-  /*display: grid;
-  grid-template-rows: 1fr 3fr 0.5fr;
-  grid-template-columns:  ;*/
+    /*display: grid;
+    grid-template-rows: 1fr 3fr 0.5fr;
+    grid-template-columns:  ;*/
 }
 
 /* header */
 
 header {
-  height: auto;
-  min-height: 100px;
-	width: 100%;
-	top: 0;
-	background-color: white;
-  /*flexbox*/
-  justify-content: space-around;
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  /*! box-shadow: 10px 10px 5px #888888; */
-  /*! z-index: 5; */
+    height: auto;
+    min-height: 100px;
+    width: 100%;
+    top: 0;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 header img {
-  height: 80px;
+    height: 80px;
 }
 
 header input {
-  width: 80%;
-  height: 30px;
-  padding: 3px;
-  margin: 10px;
-  border-radius: 4px;
-  border: 2px solid #049504;
+    width: 80%;
+    height: 30px;
+    padding: 3px;
+    margin: 10px;
+    border-radius: 4px;
+    border: 2px solid #049504;
 
-  color: #008900;
-  font-family: 'Abel', sans-serif;
-  font-size: 20px;
-  font-weight: lighter;
+    color: #008900;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
 }
 
 #icoBuscar {
-  height: 40px;
+    height: 40px;
 }
 
 #buscador {
-  display: flex;
-  width: 25%;
-  height: 90%;
-  align-items: center;
+    display: flex;
+    width: 25%;
+    height: 90%;
+    align-items: center;
 }
 
 /* container */
 
 #container {
-  background-color: #d1f6db;
-  width: 100%;
-  /*flexbox*/
-  display: flex;
-}
-
-#contenido {
-  display: flex;
-  width: calc(100% - 300px);
-  flex-wrap: wrap;
+    background-color: #d1f6db;
+    width: 100%;
+    height: 700px;
 }
 
 aside {
+
   display:;
   width: 300px;
   height: 700px;
@@ -110,6 +95,7 @@ section {
 }
 
 aside {
+
     width: 300px;
     height: 100%;
     position: relative;
@@ -161,6 +147,7 @@ table.falsa {border-collapse:collapse;
     float: left;
     position: relative;
 }
+
 
 /* Slideshow */
 
@@ -231,3 +218,4 @@ table.falsa {border-collapse:collapse;
   font-size: 20px;
 }
 /* footer */
+
