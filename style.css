@@ -63,6 +63,39 @@ header input {
 }
 
 aside {
+
+  display:;
+  width: 300px;
+  height: 700px;
+  color: #fff;
+  position: relative;
+  padding: 10px;
+  background-color: #000;
+  color: #aaffaa;
+}
+
+
+section {
+  width: 100%;
+  background-color: 049504;
+  padding: 10px;
+  /*flexbox*/
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+
+#container {
+    background-color: #d1f6db;
+    width: 100%;
+    height: 700px;
+}
+
+aside {
+
     width: 300px;
     height: 100%;
     position: relative;
@@ -114,4 +147,75 @@ table.falsa {border-collapse:collapse;
     float: left;
     position: relative;
 }
+
+
+/* Slideshow */
+
+@keyframes slidy {
+  0% { left: 0%; }
+  30% { left: 0%; }
+  35% { left: -100%; }
+  60% { left: -100%; }
+  65% { left: -200%; }
+  95% { left: -200%; }
+  100% { left: -300%; }
+}
+
+#slider {
+  height: 100%;
+  overflow: hidden;
+  text-align: left;
+  width: 100%;
+}
+
+#slider figure img{
+  width: 20%;
+  float: left;
+  height: 100%;
+}
+
+#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 20s slidy infinite;
+  height: 100%;
+}
+
+#principal{
+  display: flex;
+  flex-direction:column;
+  justify-content:flex-end;
+  align-items: flex-end;
+  height: 300px;
+}
+
+
+/* cajas */
+
+.caja {
+  width: 220px;
+  min-height: 100px;
+  max-height: 300px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 5px auto;
+  font-family: 'Abel', sans-serif;
+}
+
+.caja img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.caja p {
+  margin: 5px;
+  text-align: center;
+  color: green;
+  font-size: 20px;
+}
 /* footer */
+
