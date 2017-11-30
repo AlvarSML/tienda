@@ -95,13 +95,13 @@ aside ul li.nivel1 {
 }
 
 aside ul li.primera {
-    border-top: solid 1px #FFF;
+    /*! border-top: solid 1px #FFF; */
 }
 
 aside ul li a {display: block;
     text-decoration: none;
-    color: red;
-    background-color: #d1f6db;
+    color: #199600;
+    background-color: #fff;
     border: solid 1px #fff;
     border-top: none;
     padding: 8px;
@@ -113,7 +113,7 @@ aside ul li:hover {
     color: #000;
 }
 aside ul li a:hover, #container aside ul li:hover a.nivel1 {background-color: #d1f6db;
-    color: #000;
+    color: #2e6f00;
     position: relative;
 }
 aside ul li a.nivel1 {display: block!important;display: none;
@@ -125,8 +125,8 @@ aside ul li a:hover ul, #container aside ul li:hover ul {display: block;
     position: absolute;left: 141px;top:-1px!important;top: -31px;
 }
 aside ul li ul li a {width: 140px;
-    background-color: #d1f6db;
-    color: #000;
+    background-color: #fff;
+    color: #088600;
 }
 aside ul li ul li a:hover {position: relative;
     background-color: #d1f6db;
