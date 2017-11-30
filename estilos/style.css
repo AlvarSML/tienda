@@ -6,9 +6,7 @@
 /* body general */
 
 body {
-    /*display: grid;
-    grid-template-rows: 1fr 3fr 0.5fr;
-    grid-template-columns:  ;*/
+ font-family: 'Roboto', sans-serif;
 }
 
 /* header */
@@ -66,13 +64,11 @@ header input {
 /* menu lateral*/
 
 section {
-  /*! width: 100%; */
   background-color: 049504;
-  /*! padding: 10px; */
   /*flexbox*/
   display: flex;
-  justify-content: space-between;
-  align-content: flex-start;
+  justify-content: center;
+  /*! align-content: flex-start; */
   flex-wrap: wrap;
   flex-direction: row;
 }
@@ -83,10 +79,18 @@ aside {
   background-color: green;
 }
 
-aside ul { list-style-type: none;
+aside ul {
+    list-style-type: none;
 }
-aside ul li.nivel1 {width: 144px;}
-aside ul li.primera {border-top: solid 1px #FFF;}
+
+aside ul li.nivel1 {
+    width: 144px;
+}
+
+aside ul li.primera {
+    border-top: solid 1px #FFF;
+}
+
 aside ul li a {display: block;
     text-decoration: none;
     color: red;
@@ -96,7 +100,8 @@ aside ul li a {display: block;
     padding: 8px;
     position: relative;
 }
-aside ul li:hover {position: relative;
+aside ul li:hover {
+    position: relative;
     background-color: #d1f6db;
     color: #000;
 }
@@ -179,14 +184,14 @@ table.falsa {border-collapse:collapse;
   min-height: 100px;
   max-height: 300px;
   background-color: white;
-  border-radius: 10px;
-  margin: 5px auto;
+  border-radius: 5px;
+  margin: 10px 5px;
   font-family: 'Abel', sans-serif;
 }
 
 .caja img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 5px 5px 0 0;
 }
 
 .caja p {
