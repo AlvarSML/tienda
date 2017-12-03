@@ -81,7 +81,8 @@ section {
 }
 
 aside {
-  width: 500px;
+  
+  width: 360px;
   padding: 10px;
   background-color: green;
 }
@@ -176,10 +177,7 @@ table.falsa {border-collapse:collapse;
 }
 
 #principal{
-  display: flex;
-  flex-direction:column;
-  justify-content:flex-end;
-  align-items: flex-end;
+  margin: 10px 60px;
   height: 300px;
 }
 
@@ -208,3 +206,14 @@ table.falsa {border-collapse:collapse;
   font-size: 20px;
 }
 /* footer */
+footer{
+    background-color: #d1f6db;
+    height auto;
+    width:auto;
+    display:flex;
+    text-align: center;
+    justify-content: space-around;
+    padding-left:312px;
+
+    
+}
