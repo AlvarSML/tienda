@@ -209,8 +209,8 @@ table.falsa {border-collapse:collapse;
 }
 /* footer */
 footer{
+    color:darkgreen;
     background-color: #d1f6db;
-    height auto;
     width:auto;
     display:flex;
     text-align: center;
