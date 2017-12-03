@@ -163,6 +163,7 @@ table.falsa {border-collapse:collapse;
   width: 20%;
   float: left;
   height: 100%;
+  border-radius: 5px 5px 0 0;
 }
 
 #slider figure {
@@ -177,8 +178,9 @@ table.falsa {border-collapse:collapse;
 }
 
 #principal{
-  margin: 10px 60px;
+  margin: 10px 100px;
   height: 300px;
+    
 }
 
 
