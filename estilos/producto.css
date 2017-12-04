@@ -1,0 +1,29 @@
+#contenido {
+  width: 100%;
+  font-family: 'Abel', sans-serif;
+  color: green;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: 300px 200px auto;
+}
+
+#producto {
+  padding: 5px;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+#producto img {
+  width: 100%;
+}
+
+#comprar ,#carProducto{
+  padding: 10px;
+  font-weight:bold;
+  height: 100px;
+}
+
+#opiniones {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
