@@ -4,20 +4,28 @@
   color: green;
   display: grid;
   grid-template-columns: 60% 40%;
-  grid-template-rows: 300px 200px auto;
+  grid-template-rows: 50px 250px 200px auto;
 }
 
 #producto {
   padding: 5px;
-  grid-row-start: 1;
-  grid-row-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
 }
 
 #producto img {
   width: 100%;
 }
 
-#comprar ,#carProducto{
+#comprar {
+  grid-row-start: 2;
+}
+
+#carProducto {
+  grid-row-start: 3;
+}
+
+#comprar ,#carProducto, #opiniones{
   padding: 10px;
   font-weight:bold;
   height: 100px;
@@ -25,5 +33,5 @@
 
 #opiniones {
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 2;
 }
