@@ -1,5 +1,3 @@
 # tienda
-Tienda de Javi, Raul y Alvar
-https://rawgit.com/alvarsnow/tienda/master/index.html
-Aqui estoy yo.
-verde icono #00a249
+Tienda de Javi, Raul y Alvar <br>
+https://rawgit.com/alvarsnow/tienda/master/index.html <br>
