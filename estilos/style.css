@@ -1,13 +1,13 @@
 * {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
 }
 
 hr {
-    margin: 0 auto;
-    width: 80%;
-    color: green;
-    border-style: solid; 
+  margin: 0 auto;
+  width: 80%;
+  color: green;
+  border-style: solid; 
 }
 
 /* body general */
@@ -19,44 +19,44 @@ body {
 /* header */
 
 header {
-    height: auto;
-    min-height: 100px;
-    width: 100%;
-    top: 0;
-    background-color: white;
-    justify-content: space-around;
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
+  height: auto;
+  min-height: 100px;
+  width: 100%;
+  top: 0;
+  background-color: white;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 header img {
-    height: 80px;
+  height: 80px;
 }
 
 header input {
-    width: 80%;
-    height: 30px;
-    padding: 3px;
-    margin: 10px;
-    border-radius: 4px;
-    border: 2px solid #049504;
+  width: 80%;
+  height: 30px;
+  padding: 3px;
+  margin: 10px;
+  border-radius: 4px;
+  border: 2px solid #049504;
 
-    color: #008900;
-    font-family: 'Abel', sans-serif;
-    font-size: 20px;
-    font-weight: lighter;
+  color: #008900;
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
 }
 
 #icoBuscar {
-    height: 40px;
+  height: 40px;
 }
 
 #buscador {
-    display: flex;
-    width: 25%;
-    height: 90%;
-    align-items: center;
+  display: flex;
+  width: 25%;
+  height: 90%;
+  align-items: center;
 }
 
 /* container */
