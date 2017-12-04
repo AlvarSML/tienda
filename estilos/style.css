@@ -235,3 +235,23 @@ footer{
 footer h3 {
     margin: 0 20px;
 }
+footer > div{
+	
+	display:none;
+}
+footer >  h3:hover + div{
+	position:absolute;
+    bottom:-360px;
+
+	display: flex;
+	justify-content: center;
+    align-content: center;
+    align-content: center;
+	text-align:center;	
+	width:50%;
+	color:white;
+	background-color: green;
+	opacity:0.9;
+	
+	
+}
