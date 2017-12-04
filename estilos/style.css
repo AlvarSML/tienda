@@ -24,14 +24,23 @@ header {
     width: 100%;
     top: 0;
     background-color: white;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 header img {
     height: 80px;
+    
+}
+header :first-of-type{
+ margin-left: 10px;    
+    
+}
+header :last-of-type{
+    margin-right: 10px; 
 }
 
 header input {
