@@ -32,7 +32,16 @@ header {
 }
 
 header img {
-  height: 80px;
+    height: 80px;
+    
+}
+header :first-of-type{
+ margin-left: 10px;    
+    
+}
+header :last-of-type{
+    margin-right: 10px; 
+
 }
 
 header input {
