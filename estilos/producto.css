@@ -3,8 +3,12 @@
   font-family: 'Abel', sans-serif;
   color: green;
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 70% 30%;
   grid-template-rows: 50px 250px 200px auto;
+}
+
+#contenido h1{
+  padding: 5px;
 }
 
 #producto {
@@ -14,15 +18,22 @@
 }
 
 #producto img {
+  height: 100%;
   width: 100%;
+  
 }
 
 #comprar {
   grid-row-start: 2;
+  display: flex;
+  flex-direction: column;
+
+  /*! height: 100%; */
 }
 
 #comprar img {
-  
+  width: 40px;
+  margin: 0 20%;
 }
 
 #carProducto {
@@ -31,11 +42,17 @@
 
 #comprar ,#carProducto, #opiniones{
   padding: 10px;
-  font-weight:bold;
-  height: 100px;
+  background-color: white;
+  margin: 5px;
+  /*! font-weight:bold; */
 }
 
 #opiniones {
   grid-column-start: 1;
-  grid-column-end: 2;
+  grid-column-end: 3;
+}
+
+#opiniones hr {
+  width: 90%;
+  color: white;
 }
