@@ -1,0 +1,59 @@
+#contenido {
+  width: 100%;
+  font-family: 'Abel', sans-serif;
+  color: green;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 50px 250px 200px auto;
+}
+
+#contenido h1{
+  padding: 5px;
+}
+
+#producto {
+  padding: 5px;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+#producto img {
+  height: 100%;
+  width: 100%;
+  
+}
+
+#comprar {
+  grid-row-start: 2;
+  display: flex;
+  flex-direction: column;
+
+  /*! height: 100%; */
+}
+
+#comprar img {
+  width: 40px;
+  margin: 0 20%;
+}
+
+#carProducto {
+  grid-row-start: 3;
+}
+
+#comprar ,#carProducto, #opiniones{
+  padding: 10px;
+  background-color: white;
+  margin: 5px;
+
+  /*! font-weight:bold; */
+}
+
+#opiniones {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+#opiniones hr {
+  width: 90%;
+  color: white;
+}
