@@ -1,0 +1,50 @@
+section {
+  width: 100%;  
+}
+
+#filtro1 {
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+  background-color: #79f69a;
+  font-family: 'Abel', sans-serif;
+  color: green;
+  font-size: 20px;
+  
+  display: flex;  
+  justify-content: space-between;
+  align-items: center;
+}
+
+#filtro1 select{
+  border: 1px solid green;
+  font-family: inherit;
+  border-radius: 2px;
+  font-size: 15px;
+}
+
+#elementos {
+  display: flex;
+}
+
+#filtro2 {
+  background-color: white;
+  padding: 10px;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+#filtro2 input {
+  width: 5%;
+}
+
+#filtro2 label {
+  width: 90%;
+}
+
+#filtro2 h2 {
+  height: 50px;
+}

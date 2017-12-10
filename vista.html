@@ -5,20 +5,21 @@
   <title>Tienda</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="estilos/style.css" />
+  <link rel="stylesheet" type="text/css" href="estilos/vista.css" />
   <link href="https://fonts.googleapis.com/css?family=Abel|Roboto" rel="stylesheet">
   <script type="text/javascript" src="script.js"></script>
+
 </head>
 
 <body>
-    <header>
-        <img src="img/menu1.png" id="boton">
-        <img src="img/logo.svg.png" id="logo">
+  <header>
+    <img src="img/menu1.png" id="boton">
+    <img src="img/logo.svg.png">
 
     <div id="buscador">
       <input type="text" name="buscador">
       <img src="img/buscar.png" id="icoBuscar">
     </div>
-
   </header>
 
   <div id="container">
@@ -44,42 +45,45 @@
 
         </li>
         <li class="nivel1"><a href="#" class="nivel1">Almacenamiento</a>
-
           <ul>
             <li class="primera"><a href="#">Discos duros</a></li>
             <li><a href="#">SSD</a></li>
-
           </ul>
-
         </li>
         <li class="nivel1"><a href="#" class="nivel1">Perifericos</a>
-
           <ul>
             <li class="primera"><a href="#">Teclados</a></li>
             <li><a href="#">Ratones</a></li>
             <li><a href="#">Auriculares</a></li>
 
           </ul>
-
         </li>
-
       </ul>
     </aside>
 
-    <div id="contenido">
-      <section id="principal">
-        <div id="slider">
-          <figure>
-            <img src="img/banner.png" alt="banner">
-            <img src="img/banner2.png" alt="oferta1">
-            <img src="img/img2.jpg" alt="oferta2">
-            <img src="img/banner.png" alt="banner2">
-          </figure>
+    <section>
+      <div id="filtro1">
+        <p>Hay: 50 resultados</p>
+        <p>Ordenar por: 
+        <select id="listOrder" class="select-redondeado">
+          <option value="relevance">Relevancia</option>
+          <option value="price-desc">Precio: Más caros primero</option>
+          <option value="price-asc">Precio: Más baratos primero</option>
+          <option value="new">Novedades</option>
+          <option value="stock">Ofertas</option>
+          <option value="sales">Ventas</option>
+        </select>
+      </div>
+      </p>
+      <div id="elementos">
+        <div id="filtro2">
+          <h2>Por marca</h2>
+          <label><input type="checkbox" name="marca">MSI</label>
+          <label><input type="checkbox" name="marca">Asus</label>
+          <label><input type="checkbox" name="marca">Lenovo</label>
+          <label><input type="checkbox" name="marca">Gigabyte</label>
         </div>
-      </section>
-
-
-      <section id="cajas">
+        <section id="cajas">
         <div class="caja">
           <img src="img/portatil.jpg" alt="emento1">
           <p class="descripcion">Portatil con cosas</p>
@@ -149,14 +153,15 @@
           <p class="precio"> 500€ </p>
         </div>
       </section>
-    </div>
+      </div>
+    </section>
   </div>
-    <footer>
-        <h3><a href="">Por Que Comprar</a></h3>
-        <h3><a href="">Quienes somos</a></h3>
-        <h3><a href="">Contacta con nostros</a></h3>
-    </footer>
 
+  <footer>
+    <h3>Por Que Comprar</h3>
+    <h3>Quienes somos</h3>
+    <h3>Contacta con nostros</h3>
+  </footer>
 </body>
 
 </html>
