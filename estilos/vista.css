@@ -29,22 +29,26 @@ section {
 
 #filtro2 {
   background-color: white;
-  padding: 10px;
+  padding: 0px 10px;
   width: 30%;
+}
+
+.seccionFiltro {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  flex-direction: column;
+  margin: 20px 0;
 }
 
-#filtro2 input {
-  width: 5%;
+.seccionFiltro input{
+  margin: 5px 10px;
+  border: 0px;
 }
 
-#filtro2 label {
-  width: 90%;
+.seccionFiltro h2{
+  color: green;
+  font-size: 20px
 }
 
-#filtro2 h2 {
-  height: 50px;
+.seccionFiltro label{
+  font-size: 15px;
 }
