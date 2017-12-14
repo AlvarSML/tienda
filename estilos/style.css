@@ -99,16 +99,15 @@ section {
 }
 
 aside {
-
     width: 360px;
     padding: 10px;
     background-color: green;
-
+    color: green;
 }
 
 #menu ul {
-
-    list-style-type: none;
+    list-style-type: none;    
+    transition: all 1s linear;
 }
 
 #menu li {
@@ -117,12 +116,9 @@ aside {
     display: none;
 }
 
-
 #menu ul li.visible:hover ul li {
-
     display: block;
     background-color: #d1f6db;
-
 }
 
 #menu li.visible {
@@ -130,20 +126,13 @@ aside {
 }
 
 #menu li a {
-
-    color: black;
-
+    /*! color: black; */
 }
 
-
 #menu ul li.visible ul li a:hover {
-
     text-decoration: underline;
     color: green;
 }
-
-
-
 
 /* Slideshow */
 
