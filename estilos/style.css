@@ -1,77 +1,80 @@
 * {
-  padding: 0;
-  margin: 0;
+    padding: 0;
+    margin: 0;
+    
 }
 
-a{
-  text-decoration: none;
-  color:darkgreen;
+a {
+    text-decoration: none;
+    color: darkgreen;
 }
 
 hr {
-  margin: 0 auto;
-  width: 80%;
-  color: green;
-  border-style: solid; 
+    margin: 0 auto;
+    width: 80%;
+    color: green;
+    border-style: solid;
 }
 
 /* body general */
 
 body {
- font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* header */
 
 header {
-  height: auto;
-  min-height: 100px;
-  width: 100%;
-  background-color: white;
-  justify-content: space-around;
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  box-shadow: 0px -4px 34px -4px rgba(0,0,0,0.51);
-  position: relative;
+    height: auto;
+    min-height: 100px;
+    width: 100%;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px -4px 34px -4px rgba(0, 0, 0, 0.51);
+    position: relative;
 }
 
 header img {
     height: 80px;
-    
+
 }
-header :first-of-type{
- margin-left: 10px;    
-    
+
+header :first-of-type {
+    margin-left: 10px;
+
 }
-header :last-of-type{
-    margin-right: 10px; 
+
+header :last-of-type {
+    margin-right: 10px;
 
 }
 
 header input {
-  width: 80%;
-  height: 30px;
-  padding: 3px;
-  margin: 10px;
-  border-radius: 4px;
-  border: 2px solid #049504;
+    width: 80%;
+    height: 30px;
+    padding: 3px;
+    margin: 10px;
+    border-radius: 4px;
+    border: 2px solid #049504;
 
-  color: #008900;
-  font-family: 'Abel', sans-serif;
-  font-size: 20px;
-  font-weight: lighter;
+    color: #008900;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
 }
 
 #icoBuscar {
-  height: 40px;
+    height: 40px;
 }
 
 #buscador {
-  display: flex;
-  width: 25%;
-  height: 90%;
-  align-items: center;
+    display: flex;
+    width: 25%;
+    height: 90%;
+    align-items: center;
 }
 
 /* container */
@@ -87,56 +90,56 @@ header input {
 /* menu lateral*/
 
 section {
-  background-color: 049504;
-  /*flexbox*/
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  flex-direction: row;
+    background-color: 049504;
+    /*flexbox*/
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 aside {
-  
-  width: 360px;
-  padding: 10px;
-  background-color: green;
-    
+
+    width: 360px;
+    padding: 10px;
+    background-color: green;
+
 }
 
-#menu ul { 
-    
+#menu ul {
+
     list-style-type: none;
 }
 
-#menu li{
-    background-color:white;
-    padding:10px;
-    display:none;
+#menu li {
+    background-color: white;
+    padding: 10px;
+    display: none;
 }
 
 
 #menu ul li.visible:hover ul li {
-    
-    display:block;
+
+    display: block;
     background-color: #d1f6db;
-    
+
 }
 
-#menu li.visible{
+#menu li.visible {
     display: block;
 }
 
-#menu li a{
-    
-    color:black;
-    
+#menu li a {
+
+    color: black;
+
 }
 
 
-#menu ul li.visible ul li a:hover{
-    
+#menu ul li.visible ul li a:hover {
+
     text-decoration: underline;
-    color:green;
+    color: green;
 }
 
 
@@ -145,85 +148,146 @@ aside {
 /* Slideshow */
 
 @keyframes slidy {
-  0% { left: 0%; }
-  30% { left: 0%; }
-  35% { left: -100%; }
-  60% { left: -100%; }
-  65% { left: -200%; }
-  95% { left: -200%; }
-  100% { left: -300%; }
+    0% {
+        left: 0%;
+    }
+    30% {
+        left: 0%;
+    }
+    35% {
+        left: -100%;
+    }
+    60% {
+        left: -100%;
+    }
+    65% {
+        left: -200%;
+    }
+    95% {
+        left: -200%;
+    }
+    100% {
+        left: -300%;
+    }
 }
 
 #slider {
-  height: 100%;
-  overflow: hidden;
-  text-align: left;
-  width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-align: left;
+    width: 100%;
 }
 
-#slider figure img{
-  width: 20%;
-  float: left;
-  height: 100%;
-  border-radius: 5px 5px 0 0;
+#slider figure img {
+    width: 20%;
+    float: left;
+    height: 100%;
+    border-radius: 5px 5px 0 0;
 }
 
 #slider figure {
-  position: relative;
-  width: 500%;
-  margin: 0;
-  left: 0;
-  text-align: left;
-  font-size: 0;
-  animation: 20s slidy infinite;
-  height: 100%;
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 20s slidy infinite;
+    height: 100%;
 }
 
-#principal{
-  margin: 10px auto;
-  height: 300px;
-    
-  width: 86%;
+#principal {
+    margin: 10px auto;
+    height: 300px;
+
+    width: 86%;
 }
 
 
 /* cajas */
 
 .caja {
-  width: 220px;
-  min-height: 100px;
-  max-height: 300px;
-  background-color: white;
-  border-radius: 5px;
-  margin: 10px 5px;
-  font-family: 'Abel', sans-serif;
+    width: 220px;
+    min-height: 100px;
+    max-height: 300px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px 5px;
+    font-family: 'Abel', sans-serif;
 }
 
 .caja img {
-  width: 100%;
-  border-radius: 5px 5px 0 0;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
 }
 
 .caja p {
-  margin: 5px;
-  text-align: center;
-  color: green;
-  font-size: 20px;
+    margin: 5px;
+    text-align: center;
+    color: green;
+    font-size: 20px;
 }
+
 /* footer */
-footer{
-    color:darkgreen;
-    width:auto;
-    display:flex;
+
+footer {
+    color: darkgreen;
+    width: auto;
+    display: flex;
     text-align: center;
     justify-content: center;
     flex-wrap: wrap;
     height: 50px;
     align-items: center;
     min-height: 100px;
+   
 }
 
 footer h3 {
     margin: 0 20px;
-    
+
+}
+
+footer > div {
+
+    display: none;
+}
+
+#footer1:hover ~ #about {
+    width: 100%;
+    padding: 10px;
+    display: inline;
+    color: white;
+    background-color: green;
+
+
+
+}
+
+#footer2:hover ~ #porque {
+    width: 100%;
+    padding: 10px;
+    display: inline;
+    color: white;
+    background-color: green;
+
+
+
+}
+
+#footer3:hover ~ #contacto {
+    width: 100%;
+    padding: 10px;
+    display: inline;
+    color: white;
+    background-color: green;
+
+
+
+}
+
+#rrss {
+
+    height: 100px;
+    width: 500px;
 }
