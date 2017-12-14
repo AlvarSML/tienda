@@ -90,7 +90,7 @@ header input {
 /* menu lateral*/
 
 section {
-    background-color: 049504;
+    
     /*flexbox*/
     display: flex;
     justify-content: center;
@@ -285,6 +285,8 @@ footer > div {
 
 
 }
+
+
 
 #rrss {
 
