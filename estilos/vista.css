@@ -33,6 +33,13 @@ section {
   width: 30%;
 }
 
+#filtro2 h1 {
+  margin: 20px 0 0 0;
+  font-family: 'Abel', sans-serif;
+  font-size: 30px;
+  color: green;
+}
+
 .seccionFiltro {
   display: flex;
   flex-direction: column;
