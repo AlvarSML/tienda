@@ -227,41 +227,32 @@ footer {
     text-align: center;
     justify-content: center;
     flex-wrap: wrap;
-    height: 50px;
     align-items: center;
     min-height: 100px;   
 }
 
 footer h3 {
     margin: 0 20px;
+    height: 100%;
 }
 
 footer > div {
     display: none;
 }
 
-#footer1:hover ~ #about {
+footer > div:hover{
+    display: block;
+}
+
+#about,#porque,#contacto {
     width: 100%;
     padding: 10px;
-    display: inline;
     background-color: #d1f6db;
 }
 
-#footer2:hover ~ #porque {
-    width: 100%;
-    padding: 10px;
+#footer1:hover ~ #about, #footer2:hover ~ #porque, #footer3:hover ~ #contacto{   
     display: inline;
-    background-color: #d1f6db;
 }
-
-#footer3:hover ~ #contacto {
-    width: 100%;
-    padding: 10px;
-    display: inline;
-   background-color: #d1f6db;
-}
-
-
 
 #rrss {
     height: 100px;

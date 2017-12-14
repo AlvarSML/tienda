@@ -1,11 +1,11 @@
-let menu = true; 
+let menu = true;
 
 window.onload = f => {
   document.getElementById("boton").addEventListener("click",fMenu);
 }
 
 function fMenu() {
-  let side = document.getElementById("menuSide");
+  let side = document.getElementById("menu");
 
   if (menu) {
     menu = !menu;
