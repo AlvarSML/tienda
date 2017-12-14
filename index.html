@@ -2,159 +2,158 @@
 <html>
 
 <head>
-  <title>Tienda</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="estilos/style.css" />
-  <link href="https://fonts.googleapis.com/css?family=Abel|Roboto" rel="stylesheet">
-  <script type="text/javascript" src="script.js"></script>
+    <title>Tienda</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="estilos/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <img src="img/menu1.png" id="boton">
-        <img src="img/logo.svg.png" id="logo">
+        <img src="img/menu1.png" id="boton" alt="menu">
+        <img src="img/logo.svg.png" id="logo" alt="logo">
 
-    <div id="buscador">
-      <input type="text" name="buscador">
-      <img src="img/buscar.png" id="icoBuscar">
+        <div id="buscador">
+            <input type="text" name="buscador">
+            <img src="img/buscar.png" id="icoBuscar" alt="buscar">
+        </div>
+
+    </header>
+
+    <div id="container">
+        <aside id="menu">
+            <ul>
+                <li class="visible"><a href="#">Componentes</a>
+                    <ul>
+                        <li><a href="#">Placas Base</a></li>
+                        <li><a href="#">Tarjetas Graficas</a></li>
+                        <li><a href="#">Memorias RAM</a></li>
+                    </ul>
+                </li>
+                <li class="visible"><a href="#">Almacenamiento</a>
+
+                    <ul>
+                        <li><a href="#">Discos duros</a></li>
+                        <li><a href="#">SSD</a></li>
+
+                    </ul>
+
+                </li>
+                <li class="visible"><a href="#">Perifericos</a>
+
+                    <ul>
+                        <li><a href="#">Teclados</a></li>
+                        <li><a href="#">Ratones</a></li>
+                        <li><a href="#">Auriculares</a></li>
+
+                    </ul>
+
+                </li>
+
+            </ul>
+        </aside>
+
+        <div id="contenido">
+            <section id="principal">
+                <div id="slider">
+                    <figure>
+                        <img src="img/banner.png" alt="banner">
+                        <img src="img/banner2.png" alt="oferta1">
+                        <img src="img/img2.jpg" alt="oferta2">
+                        <img src="img/banner.png" alt="banner2">
+                    </figure>
+                </div>
+            </section>
+
+
+            <section id="cajas">
+                <div class="caja">
+                    <img src="img/portatil.jpg" alt="emento1">
+                    <p class="descripcion">Portatil con cosas</p>
+                    <hr>
+                    <p class="precio"> 500€ </p>
+                </div>
+
+                <div class="caja">
+                    <img src="img/plantbook1.jpg" alt="emento2">
+                    <p class="descripcion">Portatil con cosas</p>
+                    <hr>
+                    <p class="precio"> 500€ </p>
+                </div>
+
+                <div class="caja">
+                    <img src="img/pc.jpg" alt="emento3">
+                    <p class="descripcion">Portatil con cosas</p>
+                    <hr>
+                    <p class="precio"> 500€ </p>
+                </div>
+
+                <div class="caja">
+                    <img src="img/pc.jpg" alt="emento3">
+                    <p class="descripcion">Portatil con cosas</p>
+                    <hr>
+                    <p class="precio"> 500€ </p>
+                </div>
+
+                <div class="caja">
+                    <img src="img/pc.jpg" alt="emento3">
+                    <p class="descripcion">Portatil con cosas</p>
+                    <hr>
+                    <p class="precio"> 500€ </p>
+                </div>
+                <div class="caja">
+                    <img src="img/portatil.jpg" alt="emento1">
+                    <p class="descripcion">Portatil con cosas</p>
+                    <hr>
+                    <p class="precio"> 500€ </p>
+                </div>
+
+                <div class="caja">
+                    <img src="img/plantbook1.jpg" alt="emento2">
+                    <p class="descripcion">Portatil con cosas</p>
+                    <hr>
+                    <p class="precio"> 500€ </p>
+                </div>
+
+                <div class="caja">
+                    <img src="img/pc.jpg" alt="emento3">
+                    <p class="descripcion">Portatil con cosas</p>
+                    <hr>
+                    <p class="precio"> 500€ </p>
+                </div>
+
+                <div class="caja">
+                    <img src="img/pc.jpg" alt="emento3">
+                    <p class="descripcion">Portatil con cosas</p>
+                    <hr>
+                    <p class="precio"> 500€ </p>
+                </div>
+
+                <div class="caja">
+                    <img src="img/pc.jpg" alt="emento3">
+                    <p class="descripcion">Portatil con cosas</p>
+                    <hr>
+                    <p class="precio"> 500€ </p>
+                </div>
+            </section>
+        </div>
     </div>
-
-  </header>
-
-  <div id="container">
-    <aside id="menuSide">
-      <ul>
-        <li class="nivel1 primera"><a href="#" class="nivel1">Reciclados</a>
-
-          <ul>
-            <li class="primera"><a href="#">PCs</a></li>
-            <li><a href="">Tablets</a></li>
-
-            <li><a href="">Moviles</a></li>
-          </ul>
-
-        </li>
-        <li class="nivel1"><a href="#" class="nivel1">Componentes</a>
-
-          <ul>
-            <li class="primera"><a href="#">Placas Base</a></li>
-            <li><a href="#">Tarjetas Graficas</a></li>
-            <li><a href="#">Memorias RAM</a></li>
-          </ul>
-
-        </li>
-        <li class="nivel1"><a href="#" class="nivel1">Almacenamiento</a>
-
-          <ul>
-            <li class="primera"><a href="#">Discos duros</a></li>
-            <li><a href="#">SSD</a></li>
-
-          </ul>
-
-        </li>
-        <li class="nivel1"><a href="#" class="nivel1">Perifericos</a>
-
-          <ul>
-            <li class="primera"><a href="#">Teclados</a></li>
-            <li><a href="#">Ratones</a></li>
-            <li><a href="#">Auriculares</a></li>
-
-          </ul>
-
-        </li>
-
-      </ul>
-    </aside>
-
-    <div id="contenido">
-      <section id="principal">
-        <div id="slider">
-          <figure>
-            <img src="img/banner.png" alt="banner">
-            <img src="img/banner2.png" alt="oferta1">
-            <img src="img/img2.jpg" alt="oferta2">
-            <img src="img/banner.png" alt="banner2">
-          </figure>
-        </div>
-      </section>
-
-
-      <section id="cajas">
-        <div class="caja">
-          <img src="img/portatil.jpg" alt="emento1">
-          <p class="descripcion">Portatil con cosas</p>
-          <hr>
-          <p class="precio"> 500€ </p>
-        </div>
-
-        <div class="caja">
-          <img src="img/plantbook1.jpg" alt="emento2">
-          <p class="descripcion">Portatil con cosas</p>
-          <hr>
-          <p class="precio"> 500€ </p>
-        </div>
-
-        <div class="caja">
-          <img src="img/pc.jpg" alt="emento3">
-          <p class="descripcion">Portatil con cosas</p>
-          <hr>
-          <p class="precio"> 500€ </p>
-        </div>
-
-        <div class="caja">
-          <img src="img/pc.jpg" alt="emento3">
-          <p class="descripcion">Portatil con cosas</p>
-          <hr>
-          <p class="precio"> 500€ </p>
-        </div>
-
-        <div class="caja">
-          <img src="img/pc.jpg" alt="emento3">
-          <p class="descripcion">Portatil con cosas</p>
-          <hr>
-          <p class="precio"> 500€ </p>
-        </div>
-        <div class="caja">
-          <img src="img/portatil.jpg" alt="emento1">
-          <p class="descripcion">Portatil con cosas</p>
-          <hr>
-          <p class="precio"> 500€ </p>
-        </div>
-
-        <div class="caja">
-          <img src="img/plantbook1.jpg" alt="emento2">
-          <p class="descripcion">Portatil con cosas</p>
-          <hr>
-          <p class="precio"> 500€ </p>
-        </div>
-
-        <div class="caja">
-          <img src="img/pc.jpg" alt="emento3">
-          <p class="descripcion">Portatil con cosas</p>
-          <hr>
-          <p class="precio"> 500€ </p>
-        </div>
-
-        <div class="caja">
-          <img src="img/pc.jpg" alt="emento3">
-          <p class="descripcion">Portatil con cosas</p>
-          <hr>
-          <p class="precio"> 500€ </p>
-        </div>
-
-        <div class="caja">
-          <img src="img/pc.jpg" alt="emento3">
-          <p class="descripcion">Portatil con cosas</p>
-          <hr>
-          <p class="precio"> 500€ </p>
-        </div>
-      </section>
-    </div>
-  </div>
     <footer>
-        <h3><a href="">Por Que Comprar</a></h3>
-        <h3><a href="">Quienes somos</a></h3>
-        <h3><a href="">Contacta con nostros</a></h3>
+        <h3 id="footer1"><a href="">Por Que Comprar</a></h3>
+        <h3 id="footer2"><a href="">Quienes somos</a></h3>
+        <h3 id="footer3"><a href="">Contacta con nostros</a></h3>
+        
+        <div id="about">
+            <p>Comprar aqui te hace mejor persona y ayudarás a salvar el medio ambiente con esta propuesta innovadora.</p>
+        </div>
+        <div id="porque">
+            <p>ShopCo inicia su actividad a finales del 2017 de la mano de tres estudiantes del ciclo superior de Desarrollo de Aplicaciones Web que quieren aprender y mejorar haciendo diseños de cosas que gusten a la gente. </p>
+        </div>
+        <div id="contacto"><img src="img/RRSS.png" id="rrss" alt="rrss"> 
+            
+        
+        </div>
     </footer>
 
 </body>

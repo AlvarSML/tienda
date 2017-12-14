@@ -6,57 +6,45 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="estilos/style.css" />
     <link rel="stylesheet" type="text/css" href="estilos/producto.css" />
-    <link href="https://fonts.googleapis.com/css?family=Abel|Roboto" rel="stylesheet">
-      <script type="text/javascript" src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
 </head>
 
 <body>
     <header>
-        <img src="img/menu1.png" id="boton">
-        <img src="img/logo.svg.png">
+        <img src="img/menu1.png" id="boton" alt="boton">
+        <img src="img/logo.svg.png" alt="logo">
 
         <div id="buscador">
             <input type="text" name="buscador">
-            <img src="img/buscar.png" id="icoBuscar">
+            <img src="img/buscar.png" id="icoBuscar" alt="buscar">
         </div>
     </header>
 
     <div id="container">
-        <aside id="menuSide">
+        <aside id="menu">
             <ul>
-                <li class="nivel1 primera"><a href="#" class="nivel1">Reciclados</a>
-
+                <li class="visible"><a href="#">Componentes</a>
                     <ul>
-                        <li class="primera"><a href="#">PCs</a></li>
-                        <li><a href="">Tablets</a></li>
-
-                        <li><a href="">Moviles</a></li>
-                    </ul>
-
-                </li>
-                <li class="nivel1"><a href="#" class="nivel1">Componentes</a>
-
-                    <ul>
-                        <li class="primera"><a href="#">Placas Base</a></li>
+                        <li><a href="#">Placas Base</a></li>
                         <li><a href="#">Tarjetas Graficas</a></li>
                         <li><a href="#">Memorias RAM</a></li>
                     </ul>
-
                 </li>
-                <li class="nivel1"><a href="#" class="nivel1">Almacenamiento</a>
+                <li class="visible"><a href="#">Almacenamiento</a>
 
                     <ul>
-                        <li class="primera"><a href="#">Discos duros</a></li>
+                        <li><a href="#">Discos duros</a></li>
                         <li><a href="#">SSD</a></li>
 
                     </ul>
 
                 </li>
-                <li class="nivel1"><a href="#" class="nivel1">Perifericos</a>
+                <li class="visible"><a href="#">Perifericos</a>
 
                     <ul>
-                        <li class="primera"><a href="#">Teclados</a></li>
+                        <li><a href="#">Teclados</a></li>
                         <li><a href="#">Ratones</a></li>
                         <li><a href="#">Auriculares</a></li>
 
@@ -70,58 +58,66 @@
         <section>
             <img src="img/portatil.jpg" alt="emento1">
             <div id="compra">
-              <h4 id="marca">HP OMEN 15-AX014NS Intel Core i5-6300HQ/8GB/1TB/GTX 950M/15.6"</h4>
+                <h4 id="marca">HP OMEN 15-AX014NS Intel Core i5-6300HQ/8GB/1TB/GTX 950M/15.6"</h4>
 
-              <h1 id="precio">321€</h1>
-              <hr>
-              <div id="info">
-                  <p>Marca</p>
-                  <p>HP Omen</p>
+                <h1 id="precio">321€</h1>
+                <hr>
+                <div id="info">
+                    <p>Marca</p>
+                    <p>HP Omen</p>
 
-                  <p>Envio</p>
-                  <p>Desde 6,25€</p>
+                    <p>Envio</p>
+                    <p>Desde 6,25€</p>
 
-                  <p>Cantidad</p>
-                  <input type="number" id="cantidad" value="1" min="0" max="10">
+                    <p>Cantidad</p>
+                    <input type="number" id="cantidad" value="1" min="0" max="10">
 
-                  <p>Disponibilidad</p>
-                  <p class="stock">En Stock!!</p>
-              </div>
-              <hr>
-              <div id="botones">
-                  <input type="button" value="Añadir al carrito" id="carrito">
-                  <input type="button" value="Comprar" id="comprar">
-              </div>
-          </div>
-          <div id="descripcion">
-              <h4 class="titulo">Información de producto</h4>
-              <p class="descrip">Este pedazo portatil funciona con luz solar incluso de noche, ni si quiera los ingenieros de la NASA pueden dar explicaciones de como es posible. Pero nosotros asi lo aseguramos, es el ordenador mas potente de la historia siempre y cuando le riegues por las mañanas, pues como todo ser vivo necesita alimentarse y hacer la fotosintesis.Si le tratas con cariño, él te lo agradecera y te dará calorcito por las noches, gracias a su sistema de calefaccion, no habrá invierno que se te resista!.</p>
-          </div>
-          <div id="opiniones">
-            <h2>Opiniones</h2>
-            <div class="opinion">
-              <h3>Usuario: Anon01</h3>
-              <p>Opinion jbkabskd jbask dkjbsd ka jsbdkaj sbdkjasdk jbkfbsñdkvjdnskl dnalsdñan sdadlkaskdna lskdnak snnkdajsn</p>
+                    <p>Disponibilidad</p>
+                    <p class="stock">En Stock!!</p>
+                </div>
+                <hr>
+                <div id="botones">
+                    <input type="button" value="Añadir al carrito" id="carrito">
+                    <input type="button" value="Comprar" id="comprar">
+                </div>
             </div>
-
-            <div class="opinion">
-              <h3>Usuario: Anon02</h3>
-              <p>Opinion jbkabskd jbask dkjbsd ka jsbdkaj sbdkjasdk jbkfbsñdkvjdnskl dnalsdñan sdadlkaskdna lskdnak snnkdajsn</p>
+            <div id="descripcion">
+                <h4 class="titulo">Información de producto</h4>
+                <p class="descrip">Este pedazo portatil funciona con luz solar incluso de noche, ni si quiera los ingenieros de la NASA pueden dar explicaciones de como es posible. Pero nosotros asi lo aseguramos, es el ordenador mas potente de la historia siempre y cuando le riegues por las mañanas, pues como todo ser vivo necesita alimentarse y hacer la fotosintesis.Si le tratas con cariño, él te lo agradecera y te dará calorcito por las noches, gracias a su sistema de calefaccion, no habrá invierno que se te resista!.</p>
             </div>
+            <div id="opiniones">
+                <h2>Opiniones</h2>
+                <div class="opinion">
+                    <h3>Usuario: Anon01</h3>
+                    <p>Opinion jbkabskd jbask dkjbsd ka jsbdkaj sbdkjasdk jbkfbsñdkvjdnskl dnalsdñan sdadlkaskdna lskdnak snnkdajsn</p>
+                </div>
 
-            <div class="opinion">
-              <h3>Usuario: Anon03</h3>
-              <p>Opinion jbkabskd jbask dkjbsd ka jsbdkaj sbdkjasdk jbkfbsñdkvjdnskl dnalsdñan sdadlkaskdna lskdnak snnkdajsn</p>
+                <div class="opinion">
+                    <h3>Usuario: Anon02</h3>
+                    <p>Opinion jbkabskd jbask dkjbsd ka jsbdkaj sbdkjasdk jbkfbsñdkvjdnskl dnalsdñan sdadlkaskdna lskdnak snnkdajsn</p>
+                </div>
+
+                <div class="opinion">
+                    <h3>Usuario: Anon03</h3>
+                    <p>Opinion jbkabskd jbask dkjbsd ka jsbdkaj sbdkjasdk jbkfbsñdkvjdnskl dnalsdñan sdadlkaskdna lskdnak snnkdajsn</p>
+                    <hr>
+                </div>
             </div>
-          </div>
-      </section>
-  </div>
+        </section>
+    </div>
 
-  <footer>
-    <h3>Por Que Comprar</h3>
-    <h3>Quienes somos</h3>
-    <h3>Contacta con nostros</h3>
-</footer>
+    <footer>
+        <h3 id="footer1"><a href="">Por Que Comprar</a></h3>
+        <h3 id="footer2"><a href="">Quienes somos</a></h3>
+        <h3 id="footer3"><a href="">Contacta con nostros</a></h3>
+        <div id="about">
+            <p>Comprar aqui te hace mejor persona y ayudarás a salvar el medio ambiente con esta propuesta innovadora.</p>
+        </div>
+        <div id="porque">
+            <p>ShopCo inicia su actividad a finales del 2017 de la mano de tres estudiantes del ciclo superior de Desarrollo de Aplicaciones Web que quieren aprender y mejorar haciendo diseños de cosas que gusten a la gente. </p>
+        </div>
+        <div id="contacto"><img src="img/RRSS.png" id="rrss" alt="rrss"> </div>
+    </footer>
 </body>
 
 </html>
