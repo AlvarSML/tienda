@@ -213,18 +213,17 @@ aside {
 /* footer */
 footer{
     color:darkgreen;
-    /*! background-color: #d1f6db; */
     width:auto;
     display:flex;
     text-align: center;
     justify-content: center;
-    /*! padding-left:312px; */
-
-    
+    flex-wrap: wrap;
     height: 50px;
     align-items: center;
+    min-height: 100px;
 }
 
 footer h3 {
     margin: 0 20px;
+    
 }
